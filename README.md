@@ -5,7 +5,9 @@ This project visualizes daily temperature data for Hong Kong using D3.js on Obse
 1. A Year/Month Heatmap showing monthly temperature patterns across years
 2. An enhanced version that includes daily temperature variations within each month-year cell
 
-Observable project link: **[https://observablehq.com/@shashank4/shashank-csce-679-assignment-2](https://observablehq.com/@shashank4/shashank-csce-679-assignment-2)**
+Observable project link: **[https://observablehq.com/@shashank4/shashank-csce-679-assignment-2](https://observablehq.com/@shashank4/shashank-csce-679-assignment-2)**.
+
+Observable project code: `shashank-csce-679-assignment-2.zip` (Uploaded to this github repository)
 
 # Hong Kong Temperature Visualization
 
