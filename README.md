@@ -5,10 +5,19 @@ This project visualizes daily temperature data for Hong Kong using D3.js on Obse
 1. A Year/Month Heatmap showing monthly temperature patterns across years
 2. An enhanced version that includes daily temperature variations within each month-year cell
 
+Observable project link: **[https://observablehq.com/@shashank4/shashank-csce-679-assignment-2](https://observablehq.com/@shashank4/shashank-csce-679-assignment-2)**
+
+# Hong Kong Temperature Visualization
+
+## Overview
+This project visualizes daily temperature data for Hong Kong using D3.js on Observable. The visualization consists of two levels of complexity:
+1. A Year/Month Heatmap showing monthly temperature patterns across years
+2. An enhanced version that includes daily temperature variations within each month-year cell
+
 ## Data
 The visualization uses `temperature_daily.csv`, which contains daily temperature records for Hong Kong over multiple years.
 
-![Data Table Sample](path/to/data_table_image.png)
+![Data Table Sample](images/temperature%20data%20in%20tabular%20format.png)
 *Figure 1: Sample of the temperature data in tabular format*
 
 ## Level 1: Year/Month Heatmap
@@ -27,16 +36,19 @@ This visualization presents a matrix view where:
 - Click the buttons to switch between maximum and minimum temperature views
 - Hover over any cell to see detailed information
 
-![Level 1 Maximum Temperature Heatmap](path/to/level1_max_temp.png)
-*Figure 2: Level 1 visualization showing maximum temperatures by month and year*
+![Level 1 Toggle Button](images/toggle.png)
+*Figure 2: Toggle Button (currently Maximum selected)*
 
-![Level 1 Minimum Temperature Heatmap](path/to/level1_min_temp.png)
-*Figure 3: Level 1 visualization showing minimum temperatures by month and year*
+![Level 1 Maximum Temperature Heatmap](images/Level%201%20visualization%20showing%20maximum%20temperatures%20by%20month.png)
+*Figure 3: Level 1 visualization showing maximum temperatures by month and year*
+
+![Level 1 Minimum Temperature Heatmap](images/Level%201%20visualization%20showing%20minimum%20temperatures%20by%20month.png)
+*Figure 4: Level 1 visualization showing minimum temperatures by month and year*
 
 ## Level 2: Enhanced Heatmap with Daily Temperature Variations
 This advanced visualization builds on Level 1 by adding:
 - Mini line charts inside each month-year cell showing daily temperature fluctuations
-- Focus on the most recent 5-10 years for better readability
+- Focus on the 2008 to 2017 years for better readability
 - Preservation of the color-coding system from Level 1
 
 ### Features
@@ -51,11 +63,11 @@ This advanced visualization builds on Level 1 by adding:
 - Y-axis of mini-charts represents temperature values
 - Consistent color scheme throughout for easy interpretation
 
-![Level 2 Maximum Temperature Visualization](path/to/level2_max_temp.png)
-*Figure 4: Level 2 visualization showing daily maximum temperature variations within each month-year cell*
+![Level 2 Maximum Temperature Visualization](images/Level%202%20visualization%20showing%20daily%20maximum%20temperature.png)
+*Figure 5: Level 2 visualization showing daily maximum temperature variations within each month-year cell*
 
-![Level 2 Minimum Temperature Visualization](path/to/level2_min_temp.png)
-*Figure 5: Level 2 visualization showing daily minimum temperature variations within each month-year cell*
+![Level 2 Minimum Temperature Visualization](images/Level%202%20visualization%20showing%20daily%20minimum%20temperature.png)
+*Figure 6: Level 2 visualization showing daily minimum temperature variations within each month-year cell*
 
 ## Usage Instructions
 1. Visit the Observable notebook at the provided URL
